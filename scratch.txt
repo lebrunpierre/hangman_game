@@ -1,0 +1,11 @@
+This is for my random thoughts on creating this game.
+
+first need to get word from word bank
+
+identify how many chances in hangeman
+
+
+user gueses if it is in the ord and not used before will not increment
+
+
+if all letters in word is guessed then you would 
