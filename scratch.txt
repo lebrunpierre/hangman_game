@@ -2,10 +2,22 @@ This is for my random thoughts on creating this game.
 
 first need to get word from word bank
 
-identify how many chances in hangeman
+identify how many chances in hangeman (7)
 
 
-user gueses if it is in the ord and not used before will not increment
+need to have blanks for the user word
 
 
-if all letters in word is guessed then you would 
+if user gueses the letter then all the letters in that word are reviealed
+
+if user does not guess correctly the hangman will draw
+
+
+if they get all the letters they win
+
+once full hangman is drown it is over
+
+
+
+
+
