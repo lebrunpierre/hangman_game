@@ -8,9 +8,11 @@ def user_evaluation(hangmanword, incorrect_guess=0):
         userinput = user_input_validation()
         if userinput in hangmanword:
             print('Good guess')
+            user_input_bank.append(userinput)
 
         else:
             incorrect_guess += 1
+            print("Wrong")
             print(hangman_art.stages[len(hangman_art.stages) - incorrect_guess])
     print("You lost")
 
@@ -23,6 +25,10 @@ def user_input_validation():
 
 
 
-
+def display(hangmanword):
+    underscore = []
+    for letter in range(len(hangmanword)):
+        underscore.append('_')
+    print(underscore)
 
 

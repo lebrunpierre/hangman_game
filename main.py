@@ -8,6 +8,7 @@ print(hangman_art.logo)
 hangman_word = random.choice(wordbank.word_list).lower()
 print(hangman_word)
 
+hangman_functions.display(hangman_word)
 
 win_or_lose = hangman_functions.user_evaluation(hangman_word)
 

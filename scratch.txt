@@ -20,4 +20,26 @@ once full hangman is drown it is over
 
 
 
+class user
+
+user:
+    how many lives
+    what guesses they have made
+
+    functions:
+    validates the guesses
+    subtract lives
+
+
+class hangmangame
+
+    hangman word
+    blanks
+    is_user_winner
+
+    functions:
+    turn blanks into letters
+    checks if user guessed all of the letters
+
+
 
