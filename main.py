@@ -11,7 +11,7 @@ new_player = player.Player()
 new_hangman = hangman.HangManGame()
 # print to view the attributes
 # print(new_player.show())
-print(new_hangman.print_hangman())
+
 
 while True:
     win_or_lose = new_hangman.fill_in_blanks(new_player)
